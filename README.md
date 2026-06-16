@@ -23,7 +23,7 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="vintage-mac.png" width="450" alt="Vintage Mac ASCII Screen Preview" style="border-radius: 8px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);"/>
+  <img src="vintage-mac.png" width="900" alt="Vintage Mac ASCII Screen Preview" style="border-radius: 8px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);"/>
 </p>
 
 ---
@@ -194,46 +194,6 @@ glyph = ramp[idx]
 
 ---
 
-## Local Installation & Deployment
-
-### Prerequisites
-
-- **Bun** ≥ 1.1 (recommended) or Node.js ≥ 20
-
-### Clone & run locally
-
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-bun install
-bun run dev
-```
-
-The dev server prints a local URL (typically `http://localhost:5173`). Open it, drag an image onto the Mac screen, and tweak the sliders.
-
-### Build for production
-
-```bash
-bun run build
-```
-
-Output is emitted to `.output/` (TanStack Start / Nitro). Preview the production build with:
-
-```bash
-bun run start
-```
-
-### Deploy
-
-This is a TanStack Start app targeting an edge runtime — it deploys cleanly to any modern static / edge host. Pick one:
-
-| Platform              | One-shot command                                  |
-|-----------------------|---------------------------------------------------|
-| **Cloudflare Pages**  | Connect the repo, build cmd `bun run build`, output `.output/public` |
-| **Vercel**            | `vercel` — auto-detects the framework             |
-| **Netlify**           | Connect the repo, build cmd `bun run build`       |
-| **Lovable**           | Click **Publish** in the editor                   |
-
 ### Project layout
 
 ```
@@ -252,4 +212,3 @@ src/
 ## License
 
 MIT — do whatever you want, just don't claim you invented ASCII art.
-```
