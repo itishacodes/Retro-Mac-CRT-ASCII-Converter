@@ -9,18 +9,27 @@
 
 # ASCII Terminal — Vintage Mac Edition
 
-### 🌐 [Live Deployment Link](https://https://crt-ascii-converter.vercel.app/)
+<p align="center">
+  <a href="https://crt-ascii-converter.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20App-brightgreen?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  </a>
+</p>
+
+
+
 <!-- Badges Section -->
-[![Framework](https://img.shields.io/badge/Framework-React%2019-blue?style=for-the-badge&logo=react)](https://react.dev/)
-[![Bundler](https://img.shields.io/badge/Bundler-Vite%207-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
-[![Styling](https://img.shields.io/badge/Styling-Tailwind%20CSS%20v4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-[![Deployment](https://img.shields.io/badge/Deployment-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/)
+<p align="center">
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/Framework-React%2019-blue?style=flat-square&logo=react" alt="Framework"/></a>
+  <a href="https://vite.dev/"><img src="https://img.shields.io/badge/Bundler-Vite%207-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Bundler"/></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Styling-Tailwind%20CSS%20v4-38B2AC?style=flat-square&logo=tailwind-css" alt="Styling"/></a>
+  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Deployment-Vercel-black?style=flat-square&logo=vercel" alt="Deployment"/></a>
+</p>
 
 > Drop an image into a 1984-era Macintosh CRT and watch it dissolve into glowing phosphor-green ASCII. Pixels in, glyphs out — rendered entirely in your browser, no server round-trips.
 
 ---
 
-## 📸 Preview
+## Preview
 
 <p align="center">
   <img src="vintage-mac.png" width="900" alt="Vintage Mac ASCII Screen Preview" style="border-radius: 8px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);"/>
